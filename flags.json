@@ -1,0 +1,786 @@
+[
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇦🇫",
+    "answer": "afghanistan"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇿🇦",
+    "answer": "afrique du sud"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇦🇱",
+    "answer": "albanie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇩🇿",
+    "answer": "algerie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇩🇪",
+    "answer": "allemagne"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇦🇩",
+    "answer": "andorre"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇦🇴",
+    "answer": "angola"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇦🇬",
+    "answer": "antigua-et-barbuda"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇸🇦",
+    "answer": "arabie saoudite"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇦🇷",
+    "answer": "argentine"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇦🇲",
+    "answer": "armenie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇦🇺",
+    "answer": "australie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇦🇹",
+    "answer": "autriche"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇦🇿",
+    "answer": "azerbaidjan"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇧🇸",
+    "answer": "bahamas"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇧🇭",
+    "answer": "bahrein"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇧🇩",
+    "answer": "bangladesh"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇧🇧",
+    "answer": "barbade"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇧🇪",
+    "answer": "belgique"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇧🇿",
+    "answer": "belize"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇧🇯",
+    "answer": "benin"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇧🇹",
+    "answer": "bhoutan"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇧🇾",
+    "answer": "bielorussie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇲🇲",
+    "answer": "birmanie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇧🇴",
+    "answer": "bolivie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇧🇦",
+    "answer": "bosnie-herzegovine"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇧🇼",
+    "answer": "botswana"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇧🇷",
+    "answer": "bresil"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇧🇳",
+    "answer": "brunei"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇧🇬",
+    "answer": "bulgarie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇧🇫",
+    "answer": "burkina faso"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇧🇮",
+    "answer": "burundi"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇰🇭",
+    "answer": "cambodge"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇨🇲",
+    "answer": "cameroun"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇨🇦",
+    "answer": "canada"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇨🇻",
+    "answer": "cap-vert"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇨🇱",
+    "answer": "chili"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇨🇳",
+    "answer": "chine"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇨🇾",
+    "answer": "chypre"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇨🇴",
+    "answer": "colombie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇰🇲",
+    "answer": "comores"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇨🇬",
+    "answer": "congo"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇰🇵",
+    "answer": "coree du nord"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇰🇷",
+    "answer": "coree du sud"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇨🇷",
+    "answer": "costa rica"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇨🇮",
+    "answer": "cote d'ivoire"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇭🇷",
+    "answer": "croatie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇨🇺",
+    "answer": "cuba"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇩🇰",
+    "answer": "danemark"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇩🇯",
+    "answer": "djibouti"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇩🇲",
+    "answer": "dominique"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇪🇬",
+    "answer": "egypte"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇦🇪",
+    "answer": "emirats arabes unis"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇪🇨",
+    "answer": "equateur"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇪🇷",
+    "answer": "erythree"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇪🇸",
+    "answer": "espagne"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇪🇪",
+    "answer": "estonie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇸🇿",
+    "answer": "eswatini"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇺🇸",
+    "answer": "etats-unis"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇪🇹",
+    "answer": "ethiopie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇫🇯",
+    "answer": "fidji"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇫🇮",
+    "answer": "finlande"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇫🇷",
+    "answer": "france"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇬🇦",
+    "answer": "gabon"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇬🇲",
+    "answer": "gambie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇬🇪",
+    "answer": "georgie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇬🇭",
+    "answer": "ghana"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇬🇷",
+    "answer": "grece"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇬🇩",
+    "answer": "grenade"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇬🇹",
+    "answer": "guatemala"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇬🇳",
+    "answer": "guinee"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇬🇶",
+    "answer": "guinee equatoriale"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇬🇼",
+    "answer": "guinee-bissau"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇬🇾",
+    "answer": "guyana"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇭🇹",
+    "answer": "haiti"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇭🇳",
+    "answer": "honduras"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇭🇺",
+    "answer": "hongrie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇲🇭",
+    "answer": "iles marshall"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇸🇧",
+    "answer": "iles salomon"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇮🇳",
+    "answer": "inde"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇮🇩",
+    "answer": "indonesie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇮🇶",
+    "answer": "irak"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇮🇷",
+    "answer": "iran"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇮🇪",
+    "answer": "irlande"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇮🇸",
+    "answer": "islande"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇮🇱",
+    "answer": "israel"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇮🇹",
+    "answer": "italie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇯🇲",
+    "answer": "jamaique"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇯🇵",
+    "answer": "japon"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇯🇴",
+    "answer": "jordanie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇰🇿",
+    "answer": "kazakhstan"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇰🇪",
+    "answer": "kenya"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇰🇬",
+    "answer": "kirghizstan"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇰🇮",
+    "answer": "kiribati"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇰🇼",
+    "answer": "koweit"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇱🇦",
+    "answer": "laos"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇱🇸",
+    "answer": "lesotho"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇱🇻",
+    "answer": "lettonie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇱🇧",
+    "answer": "liban"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇱🇷",
+    "answer": "liberia"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇱🇾",
+    "answer": "libye"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇱🇮",
+    "answer": "liechtenstein"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇱🇹",
+    "answer": "lituanie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇱🇺",
+    "answer": "luxembourg"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇲🇰",
+    "answer": "macedoine du nord"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇲🇬",
+    "answer": "madagascar"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇲🇾",
+    "answer": "malaisie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇲🇼",
+    "answer": "malawi"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇲🇻",
+    "answer": "maldives"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇲🇱",
+    "answer": "mali"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇲🇹",
+    "answer": "malte"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇲🇦",
+    "answer": "maroc"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇲🇺",
+    "answer": "maurice"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇲🇷",
+    "answer": "mauritanie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇲🇽",
+    "answer": "mexique"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇫🇲",
+    "answer": "micronesie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇲🇩",
+    "answer": "moldavie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇲🇨",
+    "answer": "monaco"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇲🇳",
+    "answer": "mongolie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇲🇪",
+    "answer": "montenegro"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇲🇿",
+    "answer": "mozambique"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇳🇦",
+    "answer": "namibie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇳🇷",
+    "answer": "nauru"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇳🇵",
+    "answer": "nepal"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇳🇮",
+    "answer": "nicaragua"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇳🇪",
+    "answer": "niger"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇳🇬",
+    "answer": "nigeria"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇳🇴",
+    "answer": "norvege"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇳🇿",
+    "answer": "nouvelle-zelande"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇴🇲",
+    "answer": "oman"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇺🇬",
+    "answer": "ouganda"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇺🇿",
+    "answer": "ouzbekistan"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇵🇰",
+    "answer": "pakistan"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇵🇼",
+    "answer": "palaos"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇵🇸",
+    "answer": "palestine"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇵🇦",
+    "answer": "panama"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇵🇬",
+    "answer": "papouasie-nouvelle-guinee"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇵🇾",
+    "answer": "paraguay"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇳🇱",
+    "answer": "pays-bas"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇵🇪",
+    "answer": "perou"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇵🇭",
+    "answer": "philippines"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇵🇱",
+    "answer": "pologne"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇵🇹",
+    "answer": "portugal"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇶🇦",
+    "answer": "qatar"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇨🇫",
+    "answer": "republique centrafricaine"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇨🇩",
+    "answer": "republique democratique du congo"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇩🇴",
+    "answer": "republique dominicaine"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇨🇿",
+    "answer": "republique tcheque"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇷🇴",
+    "answer": "roumanie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇬🇧",
+    "answer": "royaume-uni"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇷🇺",
+    "answer": "russie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇷🇼",
+    "answer": "rwanda"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇰🇳",
+    "answer": "saint-christophe-et-nieves"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇸🇲",
+    "answer": "saint-marin"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇻🇨",
+    "answer": "saint-vincent-et-les grenadines"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇱🇨",
+    "answer": "sainte-lucie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇸🇻",
+    "answer": "salvador"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇼🇸",
+    "answer": "samoa"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇸🇹",
+    "answer": "sao tome-et-principe"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇸🇳",
+    "answer": "senegal"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇷🇸",
+    "answer": "serbie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇸🇨",
+    "answer": "seychelles"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇸🇱",
+    "answer": "sierra leone"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇸🇬",
+    "answer": "singapour"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇸🇰",
+    "answer": "slovaquie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇸🇮",
+    "answer": "slovenie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇸🇴",
+    "answer": "somalie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇸🇩",
+    "answer": "soudan"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇸🇸",
+    "answer": "soudan du sud"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇱🇰",
+    "answer": "sri lanka"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇸🇪",
+    "answer": "suede"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇨🇭",
+    "answer": "suisse"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇸🇷",
+    "answer": "suriname"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇸🇾",
+    "answer": "syrie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇹🇯",
+    "answer": "tadjikistan"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇹🇼",
+    "answer": "taiwan"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇹🇿",
+    "answer": "tanzanie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇹🇩",
+    "answer": "tchad"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇹🇭",
+    "answer": "thailande"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇹🇱",
+    "answer": "timor oriental"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇹🇬",
+    "answer": "togo"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇹🇴",
+    "answer": "tonga"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇹🇹",
+    "answer": "trinite-et-tobago"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇹🇳",
+    "answer": "tunisie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇹🇲",
+    "answer": "turkmenistan"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇹🇷",
+    "answer": "turquie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇹🇻",
+    "answer": "tuvalu"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇺🇦",
+    "answer": "ukraine"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇺🇾",
+    "answer": "uruguay"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇻🇺",
+    "answer": "vanuatu"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇻🇦",
+    "answer": "vatican"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇻🇪",
+    "answer": "venezuela"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇻🇳",
+    "answer": "viet nam"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇾🇪",
+    "answer": "yemen"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇿🇲",
+    "answer": "zambie"
+  },
+  {
+    "question": "🌍 Quel pays correspond à ce drapeau ? 🇿🇼",
+    "answer": "zimbabwe"
+  }
+]
