@@ -244,6 +244,7 @@ async def on_message(message):
             timeout_question(message.channel)
 )
         print("QUESTION ENVOYEE")
+        return
     if current_answer is not None:
         print("Réponse détectée :", message.content)
 
