@@ -212,7 +212,11 @@ async def on_message(message):
         )
 
     if message.content.lower() == "!quiz":
-
+        if current_answer is not None:
+            await message.channel.send(
+                "⚠️ Une question est déjà en cours."
+    )
+            return
         if not message.author.guild_permissions.administrator:
             await message.channel.send("❌ Tu n'as pas la permission.")
             return
