@@ -244,11 +244,11 @@ async def on_message(message):
             timeout_question(message.channel)
 )
         print("QUESTION ENVOYEE")
-
+    if current_answer is not None:
         print("Réponse détectée :", message.content)
 
         if message.content.lower().strip() == current_answer.lower().strip():
-
+    
             await message.add_reaction("✅")
 
             with open("scores.json", "r", encoding="utf-8") as f:
