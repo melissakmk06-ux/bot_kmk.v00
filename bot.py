@@ -250,33 +250,33 @@ async def on_message(message):
         
         print("MESSAGE =", message.content)
         print("REPONSE ATTENDUE =", current_answer)
-if message.content.lower().strip() == current_answer.lower().strip():
-
-    await message.add_reaction("✅")
-
-    with open("scores.json", "r", encoding="utf-8") as f:
-        scores = json.load(f)
-
-    user_id = str(message.author.id)
-
-    if user_id not in scores:
-        scores[user_id] = 0
-
-    scores[user_id] += 1
-
-    with open("scores.json", "w", encoding="utf-8") as f:
-        json.dump(scores, f, indent=4)
-
-    # On ferme IMMÉDIATEMENT la question
-    current_answer = None
-    question_active = False
-
-    await update_classement()
-    await update_roi()
-
-    await message.channel.send(
-        f"🎉 Bravo {message.author.mention} ! Bonne réponse ! (+1 point)"
-)
+        if message.content.lower().strip() == current_answer.lower().strip():
+        
+            await message.add_reaction("✅")
+        
+            with open("scores.json", "r", encoding="utf-8") as f:
+                scores = json.load(f)
+        
+            user_id = str(message.author.id)
+        
+            if user_id not in scores:
+                scores[user_id] = 0
+        
+            scores[user_id] += 1
+        
+            with open("scores.json", "w", encoding="utf-8") as f:
+                json.dump(scores, f, indent=4)
+        
+            # On ferme IMMÉDIATEMENT la question
+            current_answer = None
+            question_active = False
+        
+            await update_classement()
+            await update_roi()
+        
+            await message.channel.send(
+                f"🎉 Bravo {message.author.mention} ! Bonne réponse ! (+1 point)"
+        )
    
 
     if message.content.lower().strip().startswith("!drapeau"):
