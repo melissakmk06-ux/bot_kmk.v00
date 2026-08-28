@@ -170,7 +170,24 @@ async def update_roi():
 
         if role_roi:
             await membre.add_roles(role_roi)
+            
+async def timeout_question(channel):
 
+    global current_answer
+    global question_active
+
+    await asyncio.sleep(30)
+
+    if current_answer is not None:
+
+        bonne_reponse = current_answer
+
+        current_answer = None
+        question_active = False
+
+        await channel.send(
+            f"⏰ Temps écoulé !\n💡 La bonne réponse était : **{bonne_reponse}**"
+        )
 @client.event
 async def on_message(message):
 
