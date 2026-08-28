@@ -227,7 +227,7 @@ async def on_message(message):
         print("QUESTION ENVOYEE")
 
     if current_answer is not None:
-
+    await asyncio.sleep(30)
     bonne_reponse = current_answer
 
     current_answer = None
