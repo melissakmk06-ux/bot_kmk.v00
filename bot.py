@@ -221,7 +221,7 @@ async def on_message(message):
         embed.set_footer(
             text="Premier à répondre gagne 1 point ! 🏆"
     )
-
+        channel = client.get_channel(1499102303737872386)
         await message.channel.send(embed=embed)
         
         print("QUESTION ENVOYEE")
