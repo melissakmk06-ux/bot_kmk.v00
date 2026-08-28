@@ -247,7 +247,9 @@ async def on_message(message):
         return
     if current_answer is not None:
         print("Réponse détectée :", message.content)
-
+        
+    print("MESSAGE =", message.content)
+    print("REPONSE ATTENDUE =", current_answer)
         if message.content.lower().strip() == current_answer.lower().strip():
     
             await message.add_reaction("✅")
@@ -275,7 +277,11 @@ async def on_message(message):
             await message.channel.send(
                 f"🎉 Bravo {message.author.mention} ! Bonne réponse ! (+1 point)"
         )
+    await message.channel.send(embed=embed)
 
+asyncio.create_task(
+    timeout_question(message.channel)
+)
     if message.content.lower().strip().startswith("!drapeau"):
         if not message.author.guild_permissions.administrator:
             await message.channel.send("❌ Tu n'as pas la permission.")
