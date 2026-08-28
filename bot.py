@@ -223,18 +223,18 @@ async def on_message(message):
     )
 
         await message.channel.send(embed=embed)
-
+        
         print("QUESTION ENVOYEE")
-
-    if current_answer is not None:
     await asyncio.sleep(30)
-    bonne_reponse = current_answer
+    if current_answer is not None:
+    
+        bonne_reponse = current_answer
 
-    current_answer = None
-    question_active = False
+        current_answer = None
+        question_active = False
 
-    await channel.send(
-        f"⏰ Temps écoulé !\n💡 La bonne réponse était : **{bonne_reponse}**"
+        await channel.send(
+            f"⏰ Temps écoulé !\n💡 La bonne réponse était : **{bonne_reponse}**"
     )
         print("Réponse détectée :", message.content)
 
