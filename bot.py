@@ -248,8 +248,8 @@ async def on_message(message):
     if current_answer is not None:
         print("Réponse détectée :", message.content)
         
-    print("MESSAGE =", message.content)
-    print("REPONSE ATTENDUE =", current_answer)
+        print("MESSAGE =", message.content)
+        print("REPONSE ATTENDUE =", current_answer)
         if message.content.lower().strip() == current_answer.lower().strip():
     
             await message.add_reaction("✅")
