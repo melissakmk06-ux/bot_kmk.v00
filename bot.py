@@ -240,7 +240,9 @@ async def on_message(message):
     )
         channel = client.get_channel(1499102303737872386)
         await message.channel.send(embed=embed)
-        
+        asyncio.create_task(
+            timeout_question(message.channel)
+)
         print("QUESTION ENVOYEE")
 
         print("Réponse détectée :", message.content)
