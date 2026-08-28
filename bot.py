@@ -250,33 +250,33 @@ async def on_message(message):
         
         print("MESSAGE =", message.content)
         print("REPONSE ATTENDUE =", current_answer)
-        if message.content.lower().strip() == current_answer.lower().strip():
-    
-            await message.add_reaction("✅")
+if message.content.lower().strip() == current_answer.lower().strip():
 
-            with open("scores.json", "r", encoding="utf-8") as f:
-                scores = json.load(f)
+    await message.add_reaction("✅")
 
-            user_id = str(message.author.id)
+    with open("scores.json", "r", encoding="utf-8") as f:
+        scores = json.load(f)
 
-            if user_id not in scores:
-                scores[user_id] = 0
+    user_id = str(message.author.id)
 
-            scores[user_id] += 1
+    if user_id not in scores:
+        scores[user_id] = 0
 
-            with open("scores.json", "w", encoding="utf-8") as f:
-                json.dump(scores, f, indent=4)
+    scores[user_id] += 1
 
-            # On ferme IMMÉDIATEMENT la question
-            current_answer = None
-            question_active = False
+    with open("scores.json", "w", encoding="utf-8") as f:
+        json.dump(scores, f, indent=4)
 
-            await update_classement()
-            await update_roi()
+    # On ferme IMMÉDIATEMENT la question
+    current_answer = None
+    question_active = False
 
-            await message.channel.send(
-                f"🎉 Bravo {message.author.mention} ! Bonne réponse ! (+1 point)"
-        )
+    await update_classement()
+    await update_roi()
+
+    await message.channel.send(
+        f"🎉 Bravo {message.author.mention} ! Bonne réponse ! (+1 point)"
+)
    
 
     if message.content.lower().strip().startswith("!drapeau"):
@@ -444,7 +444,11 @@ async def reset_hebdo():
                 membre = await channel.guild.fetch_member(
                     int(gagnant_id)
                 )
-                
+                titre = (
+                    "👑 Reine du Quiz"
+                    if role_lady in membre.roles
+                    else "👑 Roi du Quiz"
+            )
                 await channel.send(
                     "📢 RÉSULTATS HEBDOMADAIRES 📢\n\n"
                     f"👑 {membre.mention} remporte cette semaine de quiz et devient {titre} !\n\n"
