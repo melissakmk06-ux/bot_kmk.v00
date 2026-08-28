@@ -228,6 +228,14 @@ async def on_message(message):
 
     if current_answer is not None:
 
+    bonne_reponse = current_answer
+
+    current_answer = None
+    question_active = False
+
+    await channel.send(
+        f"⏰ Temps écoulé !\n💡 La bonne réponse était : **{bonne_reponse}**"
+    )
         print("Réponse détectée :", message.content)
 
         if message.content.lower().strip() == current_answer.lower().strip():
