@@ -59,7 +59,7 @@ async def quiz_auto():
 
     await channel.send(embed=embed)
 
-    await asyncio.sleep(30)
+    await asyncio.sleep(60)
 
     if current_answer is not None:
         bonne_reponse = current_answer
@@ -176,7 +176,7 @@ async def timeout_question(channel):
     global current_answer
     global question_active
 
-    await asyncio.sleep(30)
+    await asyncio.sleep(60)
 
     if current_answer is not None:
 
