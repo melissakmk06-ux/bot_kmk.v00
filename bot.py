@@ -7,7 +7,7 @@ from discord.ext import tasks
 from datetime import datetime
 
 CLASSEMENT_CHANNEL_ID = 1542679923200630914
-CHANNEL_ID = 1499102303737872386
+CHANNEL_ID = 1543616304945303572
 TOKEN = os.getenv("DISCORD_BOT_TOKEN")
 intents = discord.Intents.default()
 intents.message_content = True
